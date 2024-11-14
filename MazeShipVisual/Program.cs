@@ -1,7 +1,13 @@
-﻿class Program
+﻿using MazeShipLogic;
+
+namespace MazeShipVisual
 {
-    public static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        public static void Main(string[] args)
+        {
+            
+        }
     }
-}
+} 
+

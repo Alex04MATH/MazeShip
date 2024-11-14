@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "MazeShipLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MazeShipLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MazeShipLogic.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MazeShipLogic/1.0.0": {
+      "type": "project",
+      "path": "../MazeShipLogic/MazeShipLogic.csproj",
+      "msbuildProject": "../MazeShipLogic/MazeShipLogic.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "MazeShipLogic >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\alex0\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\MazeShipLogic.csproj": {
+              "projectPath": "D:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\MazeShipLogic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

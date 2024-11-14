@@ -12,3 +12,7 @@ D:\proyectos\Escuela\MazeShip\MazeShipVisual\obj\Debug\net8.0\refint\MazeShipVis
 D:\proyectos\Escuela\MazeShip\MazeShipVisual\obj\Debug\net8.0\MazeShipVisual.pdb
 D:\proyectos\Escuela\MazeShip\MazeShipVisual\obj\Debug\net8.0\MazeShipVisual.genruntimeconfig.cache
 D:\proyectos\Escuela\MazeShip\MazeShipVisual\obj\Debug\net8.0\ref\MazeShipVisual.dll
+D:\proyectos\Escuela\MazeShip\MazeShipVisual\bin\Debug\net8.0\MazeShipLogic.dll
+D:\proyectos\Escuela\MazeShip\MazeShipVisual\bin\Debug\net8.0\MazeShipLogic.pdb
+D:\proyectos\Escuela\MazeShip\MazeShipVisual\obj\Debug\net8.0\MazeShipVisual.csproj.AssemblyReference.cache
+D:\proyectos\Escuela\MazeShip\MazeShipVisual\obj\Debug\net8.0\MazeShip.5C12D497.Up2Date

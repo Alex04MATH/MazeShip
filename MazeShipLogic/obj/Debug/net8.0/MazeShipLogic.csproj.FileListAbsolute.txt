@@ -1,0 +1,11 @@
+D:\proyectos\Escuela\MazeShip\MazeShipLogic\obj\Debug\net8.0\MazeShipLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\proyectos\Escuela\MazeShip\MazeShipLogic\obj\Debug\net8.0\MazeShipLogic.AssemblyInfoInputs.cache
+D:\proyectos\Escuela\MazeShip\MazeShipLogic\obj\Debug\net8.0\MazeShipLogic.AssemblyInfo.cs
+D:\proyectos\Escuela\MazeShip\MazeShipLogic\obj\Debug\net8.0\MazeShipLogic.csproj.CoreCompileInputs.cache
+D:\proyectos\Escuela\MazeShip\MazeShipLogic\bin\Debug\net8.0\MazeShipLogic.deps.json
+D:\proyectos\Escuela\MazeShip\MazeShipLogic\bin\Debug\net8.0\MazeShipLogic.dll
+D:\proyectos\Escuela\MazeShip\MazeShipLogic\bin\Debug\net8.0\MazeShipLogic.pdb
+D:\proyectos\Escuela\MazeShip\MazeShipLogic\obj\Debug\net8.0\MazeShipLogic.dll
+D:\proyectos\Escuela\MazeShip\MazeShipLogic\obj\Debug\net8.0\refint\MazeShipLogic.dll
+D:\proyectos\Escuela\MazeShip\MazeShipLogic\obj\Debug\net8.0\MazeShipLogic.pdb
+D:\proyectos\Escuela\MazeShip\MazeShipLogic\obj\Debug\net8.0\ref\MazeShipLogic.dll

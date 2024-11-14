@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "MazeShipVisual/1.0.0": {
-        "dependencies": {
-          "MazeShipLogic": "1.0.0"
-        },
-        "runtime": {
-          "MazeShipVisual.dll": {}
-        }
-      },
       "MazeShipLogic/1.0.0": {
         "runtime": {
           "MazeShipLogic.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "MazeShipVisual/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "MazeShipLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
