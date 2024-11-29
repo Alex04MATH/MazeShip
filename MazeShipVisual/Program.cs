@@ -1,5 +1,5 @@
 ﻿using MazeShipLogic;
-
+using Spectre.Console;
 namespace MazeShipVisual
 {
     class Program

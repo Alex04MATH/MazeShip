@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MazeShipVisual")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36159581027f46e3eaf4e5a16b6d315e49dcf598")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e8735a6c52cefcbc0400120cc4179f270f79740")]
 [assembly: System.Reflection.AssemblyProductAttribute("MazeShipVisual")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MazeShipVisual")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

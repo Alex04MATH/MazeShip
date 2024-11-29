@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+wTXog5cyDw=",
+  "dgSpecHash": "KvQshVXAnm4=",
   "success": true,
   "projectFilePath": "D:\\proyectos\\Escuela\\MazeShip\\MazeShipVisual\\MazeShipVisual.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\alex0\\.nuget\\packages\\spectre.console\\0.49.1\\spectre.console.0.49.1.nupkg.sha512"
+  ],
   "logs": []
 }

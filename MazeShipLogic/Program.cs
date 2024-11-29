@@ -3,19 +3,19 @@
    public class Tablero
    {
        public int Dimension { get; }
-       public Celda[,] Tablero { get; }
+       public Celda[,] tablero { get; }
        public Tablero(int dimension)
        {
            Dimension=dimension;
-           Tablero=new Celda[Dimension,Dimension];
-           inicializarCelda();
+           tablero = new Celda[Dimension,Dimension];
+           inicializarCelda(Dimension,tablero);
        }
-        private static void inicializarCelda()
+        private static void inicializarCelda(int dimension, Celda[,] tablero)
         {
-            for(int i=0; i<Dimension; i++)
-            for (int j = 0; j < Dimension; j++)
+            for(int i=0; i<dimension; i++)
+            for (int j = 0; j < dimension; j++)
             {
-                Tablero[i,j] = new Celda();
+                tablero[i,j] = new Celda();
             }
         }
     }
@@ -24,6 +24,7 @@
    {
        public bool EsObstaculo { get; set; }
        public bool EsTrampa { get; set; }
+       
        
    }
 
