@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeShipLogic", "MazeShipLo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeShipVisual", "MazeShipVisual\MazeShipVisual.csproj", "{3A92AFEE-890A-4279-9606-6620F16E9E6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Godot", "godot\Godot.csproj", "{6057C73E-0EEC-464C-A767-73BCD1859ABD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{3A92AFEE-890A-4279-9606-6620F16E9E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A92AFEE-890A-4279-9606-6620F16E9E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A92AFEE-890A-4279-9606-6620F16E9E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6057C73E-0EEC-464C-A767-73BCD1859ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6057C73E-0EEC-464C-A767-73BCD1859ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6057C73E-0EEC-464C-A767-73BCD1859ABD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6057C73E-0EEC-464C-A767-73BCD1859ABD}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

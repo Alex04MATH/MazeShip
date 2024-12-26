@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\proyectos\\Escuela\\MazeShip\\MazeShipVisual\\MazeShipVisual.csproj": {}
+    "E:\\proyectos\\Escuela\\MazeShip\\MazeShipVisual\\MazeShipVisual.csproj": {}
   },
   "projects": {
-    "D:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\MazeShipLogic.csproj": {
+    "E:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\MazeShipLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\MazeShipLogic.csproj",
+        "projectUniqueName": "E:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\MazeShipLogic.csproj",
         "projectName": "MazeShipLogic",
-        "projectPath": "D:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\MazeShipLogic.csproj",
-        "packagesPath": "C:\\Users\\alex0\\.nuget\\packages\\",
-        "outputPath": "D:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\obj\\",
+        "projectPath": "E:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\MazeShipLogic.csproj",
+        "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
+        "outputPath": "E:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\alex0\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alexm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -58,34 +66,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\proyectos\\Escuela\\MazeShip\\MazeShipVisual\\MazeShipVisual.csproj": {
+    "E:\\proyectos\\Escuela\\MazeShip\\MazeShipVisual\\MazeShipVisual.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\proyectos\\Escuela\\MazeShip\\MazeShipVisual\\MazeShipVisual.csproj",
+        "projectUniqueName": "E:\\proyectos\\Escuela\\MazeShip\\MazeShipVisual\\MazeShipVisual.csproj",
         "projectName": "MazeShipVisual",
-        "projectPath": "D:\\proyectos\\Escuela\\MazeShip\\MazeShipVisual\\MazeShipVisual.csproj",
-        "packagesPath": "C:\\Users\\alex0\\.nuget\\packages\\",
-        "outputPath": "D:\\proyectos\\Escuela\\MazeShip\\MazeShipVisual\\obj\\",
+        "projectPath": "E:\\proyectos\\Escuela\\MazeShip\\MazeShipVisual\\MazeShipVisual.csproj",
+        "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
+        "outputPath": "E:\\proyectos\\Escuela\\MazeShip\\MazeShipVisual\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\alex0\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alexm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\MazeShipLogic.csproj": {
-                "projectPath": "D:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\MazeShipLogic.csproj"
+              "E:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\MazeShipLogic.csproj": {
+                "projectPath": "E:\\proyectos\\Escuela\\MazeShip\\MazeShipLogic\\MazeShipLogic.csproj"
               }
             }
           }
@@ -99,7 +114,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -126,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
