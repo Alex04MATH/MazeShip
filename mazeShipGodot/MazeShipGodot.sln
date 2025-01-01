@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeShipGodot", "MazeShipGodot.csproj", "{48A7F6D9-F52C-4BA5-A1BD-37E93B2E0CD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48A7F6D9-F52C-4BA5-A1BD-37E93B2E0CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A7F6D9-F52C-4BA5-A1BD-37E93B2E0CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A7F6D9-F52C-4BA5-A1BD-37E93B2E0CD7}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{48A7F6D9-F52C-4BA5-A1BD-37E93B2E0CD7}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{48A7F6D9-F52C-4BA5-A1BD-37E93B2E0CD7}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{48A7F6D9-F52C-4BA5-A1BD-37E93B2E0CD7}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
