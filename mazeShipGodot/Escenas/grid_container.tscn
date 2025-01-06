@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://2ipxmo7hfue"]
+
+[ext_resource type="Script" path="res://Prueba.cs" id="1_p7r5p"]
+[ext_resource type="Texture2D" uid="uid://bogeh068sfvtt" path="res://Sprite/IslandObstacule98x98.jpeg" id="2_h7qff"]
+
+[node name="GridContainer" type="GridContainer"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -51.5
+offset_top = 30.0
+offset_right = 26.5
+offset_bottom = 108.0
+grow_horizontal = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 27
+script = ExtResource("1_p7r5p")
+GridContainerPath = NodePath(".")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("2_h7qff")
