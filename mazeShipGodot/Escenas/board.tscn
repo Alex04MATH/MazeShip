@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=3 uid="uid://qwj4y1j0wahx"]
+
+[ext_resource type="Script" path="res://Logic/Board.cs" id="1_vdo0k"]
+[ext_resource type="Texture2D" uid="uid://pux2fw5jp0gu" path="res://Sprite/Water78x78.jpeg" id="2_e4l28"]
+[ext_resource type="Texture2D" uid="uid://bogeh068sfvtt" path="res://Sprite/IslandObstacule98x98.jpeg" id="3_k2yck"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mjpsq"]
+texture = ExtResource("2_e4l28")
+texture_region_size = Vector2i(78, 78)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yduim"]
+texture = ExtResource("3_k2yck")
+texture_region_size = Vector2i(78, 78)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_0mq6y"]
+tile_size = Vector2i(78, 78)
+sources/0 = SubResource("TileSetAtlasSource_mjpsq")
+sources/2 = SubResource("TileSetAtlasSource_yduim")
+
+[node name="Board" type="Node2D"]
+script = ExtResource("1_vdo0k")
+
+[node name="TileMap" type="Node2D" parent="."]
+
+[node name="Background" type="TileMapLayer" parent="TileMap"]
+
+[node name="Foreground" type="TileMapLayer" parent="TileMap"]
+tile_set = SubResource("TileSet_0mq6y")

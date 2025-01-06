@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://d0i2q2lou2kq6"]
+
+[node name="GUI-MazeWord" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Backgrund" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.00960563, 0.00960316, 0.0254493, 1)
+
+[node name="MazeBoard" type="ColorRect" parent="."]
+layout_mode = 1
+offset_right = 720.0
+offset_bottom = 648.0
+color = Color(0.270222, 0.270222, 0.270222, 1)
+
+[node name="GridContainer" type="GridContainer" parent="MazeBoard"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -312.0
+offset_top = -312.0
+offset_right = 312.0
+offset_bottom = 312.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 27
+
+[node name="ColorRect" type="ColorRect" parent="MazeBoard/GridContainer"]
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 2
+size_flags_horizontal = 0
+color = Color(0.391577, 0.214257, 0.112652, 1)
