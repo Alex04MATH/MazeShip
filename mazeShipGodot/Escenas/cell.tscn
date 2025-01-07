@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=3 uid="uid://bb6cyjnhagcyr"]
+
+[ext_resource type="Script" path="res://Logic/CellGD.cs" id="1_fj741"]
+[ext_resource type="Texture2D" uid="uid://bogeh068sfvtt" path="res://Sprite/IslandObstacule98x98.jpeg" id="1_nar2g"]
+[ext_resource type="Texture2D" uid="uid://pux2fw5jp0gu" path="res://Sprite/Water78x78.jpeg" id="2_v5aat"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7etfa"]
+size = Vector2(78, 78)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oq5rs"]
+size = Vector2(78, 78)
+
+[node name="Cell" type="Node2D" node_paths=PackedStringArray("cellObstacle", "cellFree")]
+script = ExtResource("1_fj741")
+cellObstacle = NodePath("CellObstacle")
+cellFree = NodePath("CellFree")
+
+[node name="CellObstacle" type="Area2D" parent="."]
+visible = false
+
+[node name="SpriteObstacle" type="Sprite2D" parent="CellObstacle"]
+texture = ExtResource("1_nar2g")
+
+[node name="CollisionObstacle" type="CollisionShape2D" parent="CellObstacle"]
+shape = SubResource("RectangleShape2D_7etfa")
+
+[node name="CellFree" type="Area2D" parent="."]
+visible = false
+
+[node name="SpriteObstacle" type="Sprite2D" parent="CellFree"]
+texture = ExtResource("2_v5aat")
+
+[node name="OcupedArea" type="CollisionShape2D" parent="CellFree"]
+shape = SubResource("RectangleShape2D_oq5rs")
