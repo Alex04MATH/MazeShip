@@ -1,42 +1,35 @@
 using Godot;
 using System;
 
-public class Cell 
+public class Cell
 {
-  public bool isObstacle{get;set;}
-  public bool isTrap{get;set;}
-  private object container;
-  private bool busy;
-  private int count=1;
-  private TypeTrap typeTrap;
-  public int Walk{get=>count;}
-  public TypeTrap NewTypeTrap(TypeTrap typeTrap)
+  private int x;
+  private int y;
+
+  public (int, int) Coordinate { get => (x, y); }
+
+  private bool isWall;
+  private bool isFree;
+  private bool isTramp;
+  public const int Steps = 1;
+  public bool IsWall => isWall;
+  public bool IsFree => isFree;
+  public Cell(int x, int y, bool isWall)
   {
-    this.typeTrap=typeTrap;
-    return typeTrap;
+    this.isWall = isWall;
+    isFree = !isWall;
+    this.x = x;
+    this.y = y;
   }
-  public object ContainerObject{set=>value=container;}
-  public Cell()
+
+  public void CreateFreeCell()
   {
-    this.isObstacle=true;
-    this.isTrap=false;
-    this.typeTrap=TypeTrap.Ninguna;
-    busy=false;
+    isWall = false;
+    isFree = true;
   }
-  public Cell(object container)
+  public void CreateWall()
   {
-    this.container=container;
-    if(container !=null)
-    {
-      isObstacle=false;
-      isTrap=false;
-      typeTrap=TypeTrap.Ninguna;
-      busy=true;
-    }
+    isWall=true;
+    isFree=false;
   }
-}
-public enum TypeTrap
-{
-    Ninguna,
-    Mine,
 }
