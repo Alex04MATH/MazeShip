@@ -5,8 +5,8 @@ using System.Collections.Generic;
 public partial class MazeCell : Node2D
 {
     private Cell[,] mazeCell;
-    private const int columns = 27; // number of columns
-    private const int rows = 27; // number of rows 
+    private  int columns = 5; // number of columns
+    private  int rows = 5; // number of rows 
     private List<(Cell, Cell)> Walls = new List<(Cell, Cell)>();
 
     public override void _Ready()
@@ -76,7 +76,7 @@ public partial class MazeCell : Node2D
     private void BreakWall(Cell cell, Cell cell1)
     {
         int interX = (cell.Coordinate.Item1 + cell1.Coordinate.Item1) / 2;
-        int interY = (cell.Coordinate.Item1 + cell1.Coordinate.Item1) / 2;
+        int interY = (cell.Coordinate.Item2 + cell1.Coordinate.Item2) / 2;
 
         mazeCell[interX, interY].CreateFreeCell();
     }

@@ -38,10 +38,10 @@ public partial class MazeCell : Node2D
                 {
                     if (!mazeCell[i, j].IsWall && !accessible[i, j])
                     {
-                       ConnectCell(i, j, accessible);
-                       if(accessible[i,j])
+                      bool wasConnect=ReconnectCell(i,j,accessible);
+                       if(wasConnect)
                        {
-                          DFS(0, 0, accessible);
+                          DFS(i, j, accessible);
                           connection = true;
                        }
                     }
@@ -68,10 +68,11 @@ public partial class MazeCell : Node2D
             {
                 int interX = (x + row) / 2;
                 int interY = (y + col) / 2;
-                if (interX >= 0 && interX < rows && interY >= 0 && interY < columns)
+                if (!mazeCell[interX,interY].IsFree)
                 {
                     mazeCell[interX, interY].CreateFreeCell();
                     accessible[row, col] = true;
+                    DFS(row,col,accessible);
                 }
             }
         }
