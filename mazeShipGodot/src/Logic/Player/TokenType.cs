@@ -10,8 +10,9 @@ namespace MazeShip
         Destroyer,
         Frigate,
         Corvette,
-        MineLayerAndMinesweeper,
-        AuxiliaryAndSupportShips,
+        MineLayer,
+        MineSweeper,
+        AuxiliaryAndSupportShip,
         FastAttackCraft,
         AmphibiousShip,
         PatrolBoatsAndCutters

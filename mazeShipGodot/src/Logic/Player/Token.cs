@@ -9,5 +9,7 @@ namespace MazeShip
         public int CoolDown { get; }
         // public void Ability() { }
         public void UseAbility();
+
+        public int Head { get; }
     }
 }

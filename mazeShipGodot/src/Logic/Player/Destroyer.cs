@@ -1,18 +1,20 @@
 namespace MazeShip
 {
-    public class AircraftCarrier : IToken
+    public class Destroyer : IToken
     {
         public string Id { get; }
-        public TokenType type => TokenType.AircraftCarrier;
+        public TokenType type => TokenType.Destroyer;
         public Position position { get; }
-        public int BaseSpeed => 3;
+        public int BaseSpeed => 5;
         public int CoolDown => 1;
-        public int Head => 120;
-        public AircraftCarrier(string id, Position position)
+        public int Head => 110;
+
+        public Destroyer(string id, Position position)
         {
             Id = id;
             this.position = position;
         }
+
         public void UseAbility()
         {
 
