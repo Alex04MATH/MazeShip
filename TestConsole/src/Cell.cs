@@ -6,10 +6,11 @@ namespace MazeShip
     public Position position { get; }
     private bool isWall;
     private bool isFree;
-    private bool isTramp;
     public const int Steps = 1;
     public bool IsWall => isWall;
     public bool IsFree => isFree;
+    public ITrap? Trap { get; }
+    public IToken? Token { get; }
     public Cell(int x, int y, bool isWall)
     {
       this.isWall = isWall;
