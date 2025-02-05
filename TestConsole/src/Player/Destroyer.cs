@@ -5,7 +5,7 @@ namespace MazeShip
         public string Id { get; }
         public TokenType type => TokenType.Destroyer;
         public Position position { get; }
-        public int BaseSpeed => 5;
+        public int BaseSpeed => 4;
         public int CoolDown => 1;
         public int Head => 110;
 

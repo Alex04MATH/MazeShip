@@ -14,7 +14,6 @@ namespace MazeShip
         MineSweeper,
         AuxiliaryAndSupportShip,
         FastAttackCraft,
-        AmphibiousShip,
         PatrolBoatsAndCutters
     }
 }

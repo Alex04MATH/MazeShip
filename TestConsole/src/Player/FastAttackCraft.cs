@@ -1,15 +1,14 @@
 namespace MazeShip
 {
-    public class Corvette : IToken
+    public class FastAttackCraft : IToken
     {
         public string Id { get; }
-        public TokenType type => TokenType.Corvette;
+        public TokenType type => TokenType.FastAttackCraft;
         public Position position { get; }
-        public int BaseSpeed => 3;
+        public int BaseSpeed => 5;
         public int CoolDown => 1;
-        public int Head => 90;
-
-        public Corvette(string id, Position position)
+        public int Head => 75;
+        public FastAttackCraft(string id, Position position)
         {
             Id = id;
             this.position = position;

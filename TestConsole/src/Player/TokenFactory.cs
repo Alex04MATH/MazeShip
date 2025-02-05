@@ -14,6 +14,8 @@ namespace MazeShip
                 TokenType.MineLayer => new MineLayer(id, position),
                 TokenType.MineSweeper => new MineSweeper(id, position),
                 TokenType.AuxiliaryAndSupportShip => new AuxiliaryAndSupportShip(id, position),
+                TokenType.FastAttackCraft => new FastAttackCraft(id, position),
+                TokenType.PatrolBoatsAndCutters => new PatrolBoatsAndCutters(id, position),
 
                 _ => throw new TokenException(),
             };

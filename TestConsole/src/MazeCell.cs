@@ -93,9 +93,9 @@ namespace MazeShip
                 {
                     l++;
                     if (mazeCell[y, x].IsWall)
-                        linea += "0";
+                        linea += "🧱";
                     else
-                        linea += "1";
+                        linea += "⬜";
                 }
                 System.Console.Write(linea);
                 if (l == columns)
