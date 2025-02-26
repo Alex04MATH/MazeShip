@@ -8,8 +8,8 @@ namespace MazeShip
         public int BaseSpeed { get; }
         public int CoolDown { get; }
         // public void Ability() { }
+        public int Head { get; }
         public void UseAbility();
 
-        public int Head { get; }
     }
 }

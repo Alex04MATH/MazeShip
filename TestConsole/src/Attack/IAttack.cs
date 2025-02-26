@@ -1,0 +1,14 @@
+namespace MazeShip;
+
+public interface IAttack
+{
+    public AttackType type { get; }
+    public int damage { get; }
+    public int rage { get; }
+    public int CoolDown { get; }
+
+    public void Attack(IToken attackerToken, IToken defenderToken)
+    {
+
+    }
+}
