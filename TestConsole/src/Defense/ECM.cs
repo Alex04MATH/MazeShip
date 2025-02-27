@@ -8,4 +8,5 @@ public class ECM : IDefense
     public int Protection => 30;
 
     public int CoolDown => 4;
+    public int CurrentCoolDown { get; }
 }

@@ -6,4 +6,5 @@ public class TorpedoAttack : IAttack
     public int damage => 26;
     public int range => 5;
     public int CoolDown => 3;
+    public int CurrentCoolDown { get; }
 }

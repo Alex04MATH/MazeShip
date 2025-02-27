@@ -9,6 +9,8 @@ namespace MazeShip
         public int CoolDown => 1;
         public int Head => 70;
 
+        public List<IAttack> Attacks => [new ArtilleryAttack(), new TorpedoAttack()];
+        public List<IDefense> Defenses => [new ArtilleryDefender(), new AntiMine()];
         public PatrolBoatsAndCutters(string id, Position position)
         {
             Id = id;

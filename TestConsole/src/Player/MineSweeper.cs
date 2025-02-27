@@ -8,6 +8,8 @@ namespace MazeShip
         public int BaseSpeed => 7;
         public int CoolDown => 3;
         public int Head => 95;
+        public List<IAttack> Attacks => [new ArtilleryAttack(), new TorpedoAttack()];
+        public List<IDefense> Defenses => [new ArtilleryDefender(), new AntiMine()];
 
         public MineSweeper(string id, Position position)
         {

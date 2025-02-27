@@ -8,4 +8,5 @@ public class SubmarineAttack : IAttack
     public int damage => 20;
     public int range => 3;
     public int CoolDown => 2;
+    public int CurrentCoolDown { get; }
 }

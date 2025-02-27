@@ -6,7 +6,7 @@ public interface IAttack
     public int damage { get; }
     public int range { get; }
     public int CoolDown { get; }
-
+    public int CurrentCoolDown { get; }
     public void Attack(IToken attackerToken, IToken defenderToken)
     {
 
