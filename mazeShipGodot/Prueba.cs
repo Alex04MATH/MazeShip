@@ -5,7 +5,7 @@ public partial class Prueba : GridContainer
 {
 	[Export]
 	public NodePath GridContainerPath;
-	
+
 	public override void _Ready()
 	{
 	  GridContainer gridContainer=GetNode<GridContainer>(GridContainerPath);
